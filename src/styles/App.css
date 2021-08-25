@@ -21,8 +21,24 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-   
+
 	padding: 1rem;
 	margin-top: 1rem;
 	border: 0.15rem solid teal;
+}
+
+.post-enter {
+	transform: translateX(-30rem);
+	opacity: 0.6;
+}
+.post-enter-active {
+	transform: translateX(0rem);
+	transition: all 500ms ease-in;
+}
+.post-exit {
+	opacity: 0.6;
+}
+.post-exit-active {
+	transform: translateX(-30rem);
+	transition: all 500ms ease-in;
 }
