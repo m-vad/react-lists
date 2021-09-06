@@ -28,6 +28,10 @@
 	border: 0.15rem solid teal;
 }
 
+.post__btns {
+	display: flex;
+}
+
 .post-enter {
 	transform: translateX(-30rem);
 	opacity: 0.6;
